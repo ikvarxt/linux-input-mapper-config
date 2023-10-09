@@ -1,0 +1,74 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 58,
+                "origin_hash": "2c7935ef6a560693ffaeaf0556a0e687"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_single(key(Escape), set(caps_t, 1).hold().set(caps_t, 0), 300)",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 1,
+                "origin_hash": "2c7935ef6a560693ffaeaf0556a0e687"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Caps_Lock",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 36,
+                "origin_hash": "2c7935ef6a560693ffaeaf0556a0e687"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($caps_t, 1, hold_keys(Down), hold_keys(j))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 35,
+                "origin_hash": "2c7935ef6a560693ffaeaf0556a0e687"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($caps_t, 1, hold_keys(Left), hold_keys(h))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 37,
+                "origin_hash": "2c7935ef6a560693ffaeaf0556a0e687"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($caps_t, 1, hold_keys(Up), hold_keys(k))",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 38,
+                "origin_hash": "2c7935ef6a560693ffaeaf0556a0e687"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "if_eq($caps_t, 1, hold_keys(Right), hold_keys(l))",
+        "mapping_type": "key_macro"
+    }
+]
